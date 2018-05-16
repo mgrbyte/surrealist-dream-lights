@@ -26,9 +26,7 @@
 
 // Pixels
 #define NUM_PIXELS 60 // 30 x 2 when we've connected 2 strips
-Adafruit_NeoPixel strip = Adafruit_NeoPixel(NUM_PIXELS,
-																						DATA_PIN,        
-																						NEO_GRBW + NEO_KHZ800);
+Adafruit_NeoPixel strip = Adafruit_NeoPixel(NUM_PIXELS, DATA_PIN, NEO_GRBW + NEO_KHZ800);
 
 /* RGB color defs from NIA css */
 /* uint32_t enl_color = strip.Color(40, 244, 40, 200); */
